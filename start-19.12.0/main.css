@@ -1,0 +1,57 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    color: White;
+    background-image: url(Images/redsun.jpg);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#headerbullshit h{
+    margin: 0;
+    padding: 0;
+}
+#headerbullshit {
+    padding-top: 175px;
+    padding-bottom: 20px;
+    font-size: 300%;
+    text-align: center;
+}
+#datetime p {
+    padding: 0;
+    margin: 0;
+}
+#datetime {
+    text-align: center;
+    font-size: 120%;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+#links {
+    font-size: 150%;
+    text-align: center;
+    padding-top: 30px;    
+    padding-left: 23%;
+    
+}
+h3 {
+    padding-top: 0;
+}
+#links p {
+    text-align: left;
+    padding: 0;
+    padding-bottom:5px;
+    margin: 0;
+}
+#general, #cheats, #fchan, #reddit, #weebshit {
+    display: inline-grid;
+    overflow:hidden;
+    padding-top:50px; 
+    padding: 0;
+    padding-left:25px;
+    margin:0;
+    float:left;
+}

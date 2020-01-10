@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <title>Start</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+        
+        
+        
+        </head>
+    
+        <body>
+            
+        
+            <div id=headerbullshit>
+                <a href="https://google.com" target="_blank"><h1 style="padding: 0; margin: 0;">Welcome</h1></a>             
+            </div>
+            
+            <div id=datetime>
+                <p style="font-size: 400%"><span id="time"></span></p>
+                <p><span id="weekday"></span> <span id="date"></span></p>
+                    
+                <script>
+                    var dt = new Date();
+
+                    document.getElementById("date").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear());
+                    document.getElementById("time").innerHTML = (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+
+                    var weekday = new Array(7);
+                    weekday[0] = "Sunday";
+                    weekday[1] = "Monday";
+                    weekday[2] = "Tuesday";
+                    weekday[3] = "Wednesday";
+                    weekday[4] = "Thursday";
+                    weekday[5] = "Friday";
+                    weekday[6] = "Saturday";
+
+                    var wd = weekday[dt.getDay()];
+
+                    document.getElementById("weekday").innerHTML = wd;
+                </script>
+            </div>
+        
+            <div id=links>
+                <div id=general>
+                    <h3>General Links</h3>
+					<a href="https://gmail.com" target="_blank"><p>Gmail</p></a>
+                    <a href="https://youtube.com" target="_blank"><p>Youtube</p></a> 
+                    <a href="http://4chan.org" target="_blank"><p>4Chane</p></a>
+                    <a href="https://reddit.com" target="_blank"><p>Reddit</p></a>
+                </div>
+                <div id=cheats>
+                    <h3>CSGO Cheats</h3>
+                    <a href="https://www.youtube.com/boringchannel" target="_blank"><p>Boring Channel</p></a>
+                    <a href="https://matt1.tk/" target="_blank"><p>Matt1.tk</p></a>
+                    <a href="https://unknowncheats.me" target="_blank"><p>Unknown Cheats</p></a>
+                    <a href="https://void.to/Forum-CSGO-Releases" target="_blank"><p>Void.to CS:GO</p></a>
+                
+                </div>
+                <div id=fchan>
+                    <h3>4Chane</h3>
+                    <a href="http://4chan.org/b" target="_blank"><p>Random</p></a>
+                    <a href="http://4chan.org/g" target="_blank"><p>Technology</p></a>
+                    <a href="http://4chan.org/w" target="_blank"><p>Anime/Wallpapers</p></a>
+                    <a href="http://4chan.org/pol" target="_blank"><p>Politically Incorrect</p></a>
+                </div>
+                <div id=reddit>
+                    <h3>Reddit</h3>
+                    <a href="https://reddit.com/r/unixporn" target="_blank"><p>Unix Porn</p></a>
+                    <a href="https://reddit.com/r/startpages" target="_blank"><p>Start Pages</p></a>
+                    <a href="https://reddit.com/r/linux" target="_blank"><p>Linux</p></a>
+                    <a href="https://reddit.com/r/cpp" target="_blank"><p>C++</p></a>
+                    <a href="https://reddit.com/r/c_programming" target="_blank"><p>C Programming</p></a>
+                </div>
+                <div id=weebshit>
+                    <h3> Weeb Shit</h3>
+                    <a href="https://vrv.co" target="_blank"><p>VRV</p></a>
+                    <a href="https://animeheaven.ru" target="_blank"><p>Anime Heaven</p></a>
+                    <a href="https://hulu.com" target="_blank"><p>Hulu</p></a>
+                    <a href="https://netflix.com" target="_blank"><p>Netflix</p></a>
+                    
+                </div>
+                
+
+            </div>
+        </body>
+</html>
