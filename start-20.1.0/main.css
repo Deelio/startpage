@@ -46,7 +46,8 @@ h2 {
 }
 
 #links a {
-	
+	border:2px solid white;
+	border-radius:10px;
 	text-align:center; 
 	width:125px; 
 	height:145px; 
