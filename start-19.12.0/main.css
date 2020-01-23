@@ -34,7 +34,7 @@ a {
     font-size: 150%;
     text-align: center;
     padding-top: 30px;    
-    padding-left: 23%;
+    padding-left: 28%;
     
 }
 h3 {
@@ -46,7 +46,7 @@ h3 {
     padding-bottom:5px;
     margin: 0;
 }
-#general, #cheats, #fchan, #reddit, #weebshit {
+#general, #cheats, #fchan, #reddit, #tv {
     display: inline-grid;
     overflow:hidden;
     padding-top:50px; 
