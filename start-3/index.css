@@ -1,0 +1,36 @@
+body {
+	padding:0;
+	margin:0;
+}
+
+
+#cont {
+	width:100%;
+	height:100%;
+
+	text-align:center;
+
+	display:flex;
+	flex-direction:row;
+}
+
+#l {
+
+	background-color:red;
+}
+
+#c {
+	background-color:green;
+}
+
+#r {
+	background-color:blue;
+}
+
+.sub {
+	width:33.33333%;
+	display:flex;
+}
+.subsub {
+	margin:auto;
+}

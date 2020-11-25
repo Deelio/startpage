@@ -1,20 +1,30 @@
 <!DOCTYPE html5>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>START</title>
-        <link rel="style/css" href="index.css"/>
-        <link rel="script/js" href="index.js"/>
-
+		<link rel="stylesheet" href="index.css"/>
+		
+		<script src="index.js"></script>
     </head>
-    <body>
-        <ul>
-            <a href="https://www.youtube.com/"><li>Youtube</li></a>
-            <a href="http://4chan.org/"><li>4Chan</li></a>
-            <a href="https://duckduckgo.com/"><li>DuckDuckGo</li></a>
+    <body onload="init()">
+		<div id="cont"> <!-- Main container -->
+			<!-- Left -->
+			<div id="l" class="sub" onmouseover="enL()" onmouseout="ret()"> 
+				<div class="subsub">A</div>
+			</div>
 
+			<!-- Center -->
+			<div id="c" class="sub" onmouseover="enC()" onmouseout="ret()"> 
+				<div class="subsub">B</div>
+			</div>
 
+			<!-- Right -->
+			<div id="r" class="sub" onmouseover="enR()" onmouseout="ret()"> 
+				<div class="subsub">C</div>
+			</div>
+		</div-->
 
-        </ul>
+		
     </body>
 </html>
