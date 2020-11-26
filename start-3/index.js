@@ -42,3 +42,25 @@ function enR() {
 	lr.style.display = "grid";
 
 }
+
+// Clock
+function updateTime24h() {
+	var now = new Date();
+	var hours = now.getHours();
+	var minutes = now.getMinutes();
+	var seconds = now.getSeconds();
+	
+	// Correct seconds and minutes
+	if (seconds < 10)
+		seconds = '0' + seconds;
+	if (minutes < 10)
+		minutes = '0' + minutes;
+
+	// Concatenate time vars
+	var currentTime = hours + ':' + minutes + ':' + seconds;
+
+	var myClock = document.getElementById('clock');
+	myClock.innerHTML = currentTime;
+
+	setTimeout(updateTime24h, 1000);
+}
