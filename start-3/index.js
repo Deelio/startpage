@@ -15,9 +15,14 @@ function ret() {
 	left.style.width = "33.33333%";
 	center.style.width = "33.33333%";
 	right.style.width = "33.33333%";
+
 	ll.style.display = "none";
 	lc.style.display = "none";
 	lr.style.display = "none";
+	
+	l.style.backgroundColor = "white";
+	center.style.backgroundColor = "white";
+	r.style.backgroundColor = "white";
 }
 
 function enL() {
@@ -26,6 +31,7 @@ function enL() {
 	right.style.width = "16%";
 
 	ll.style.display = "grid";
+	l.style.backgroundColor = "#ebebeb";
 }
 function enC() {
 	left.style.width = "16%";
@@ -33,6 +39,7 @@ function enC() {
 	right.style.width = "16%";
 
 	lc.style.display = "grid";
+	center.style.backgroundColor = "#ebebeb";
 }
 function enR() {
 	left.style.width = "16%";
@@ -40,7 +47,7 @@ function enR() {
 	right.style.width = "68%";
 
 	lr.style.display = "grid";
-
+	r.style.backgroundColor = "#ebebeb";
 }
 
 // Clock

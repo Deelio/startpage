@@ -1,7 +1,7 @@
 body {
 	padding:0;
 	margin:0;
-	background-color:blue;
+	background-color:#ebebeb;
 }
 
 h1 {
@@ -34,28 +34,21 @@ a {
 
 }
 
-#l {
-
-	background-color:red;
-}
-
-#c {
-
-	background-color:green;
-}
-
-#r {
-
-	background-color:blue;
-}
-
 .sub {
+	background-color:white;
 	width:33.33333%;
 	transition: width 500ms;
 	display:flex;
 }
 .subsub {
 	margin:auto;
+}
+
+.subsub h1 {
+	font-weight: normal;
+	font-size:4.5em;
+} .subsub a {
+	font-size: 1.4em;
 }
 
 .subsub > ul {
@@ -75,6 +68,6 @@ a {
 } .subsub > ul > li:hover { background-color:#a5a5a5;}
 
 .subsub > ul > li > a {
-	padding:30px 40px 30px 40px
+	padding:50px;
 }
 
